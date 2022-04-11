@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.fondo{
+    background-image: url(../img/fondoveterinaria1.gif);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    font-style: solid;
+    font-family: Aria, Helvetica, sans-serif;
+    font-size: 6em;
+    font-weight: bold;
+    text-decoration:double;
+    text-align: center;
+    color:#fafafa;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes slidein{
+    from{
+        margin-left: 90%;
+         width: 90%;
+
+    }
+ to{
+     margin-left: 0%;
+     width: 100%;
+ }
